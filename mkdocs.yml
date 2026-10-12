@@ -5,7 +5,9 @@ site_url: http://127.0.0.1:8000/
 docs_dir: docs
 site_dir: site
 use_directory_urls: false
-copyright: Thomas Lian · 参赛资料与学习笔记 · 更新于 2026-10-12
+copyright: Conrad · 参赛资料与学习笔记 · 更新于 2026-10-12
+extra:
+  generator: false
 theme:
   name: material
   language: zh
