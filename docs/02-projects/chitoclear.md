@@ -1,9 +1,8 @@
 # ChitoClear：把材料创新放进净水场景
 
-材料创新要产生实际价值，需要回答材料从哪里来、怎样加工，以及在使用后如何处理。ChitoClear 是 Aquaneers 团队 Shells for Water 项目中的净水产品，为我们提供了一个连接材料与水处理的例子。
+ChitoClear 把材料与净水问题联系起来，让我不只关注过滤效果，也想了解材料来源、加工成本和使用后的处理。它是 Aquaneers 团队 Shells for Water 项目中的净水产品。
 
-下面保留其技术与商业介绍，并讨论过滤表现、成本和使用条件如何比较。阅读时可以留意实验指标，也可以思考不同地区的家庭、企业和机构是否有相同需求。
-
+下面保留技术与商业介绍，并整理可以比较的实验指标。大家也可以想想，不同地区的家庭、企业和机构，对同一种净水方案是否有相同需求。
 
 <figure class="case-photo">
 <a href="https://conrad.spacecenter.org/2025-winners/" target="_blank" rel="noopener"><img src="https://conrad.spacecenter.org/wp-content/uploads/2025/10/1749119686091-1024x720.jpg" alt="ChitoClear 在官方获奖介绍中的项目配图" loading="lazy" decoding="async"></a>
@@ -29,7 +28,7 @@
 
 ## 资料缺口与原图位置
 
-未取得完整代码、原始测试数据、全部成本与经营记录。团队独立官网及图片转载许可未确认。官方项目图片请见上方年度档案，本站保留原图位置。
+未取得完整代码、原始测试数据、全部成本与经营记录。团队独立官网及图片转载许可未确认。官方项目配图及出处见上方；图片载入失败时，可打开年度档案查看。
 
 ## 延伸阅读
 

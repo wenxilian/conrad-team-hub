@@ -1,9 +1,8 @@
 # Aphelion：用球形电机改进卫星姿态控制
 
-卫星需要不断调整姿态，让天线、仪器或太阳能电池板朝向合适的方向。传统多轴结构可能增加体积、重量与连接复杂度，Aphelion 尝试用球形电机和控制算法改进这一过程。
+卫星怎样调整姿态，是我阅读 Aphelion 时想弄清楚的问题。Aphelion 的球形电机方案给了我一个入口，可以把机械结构、控制算法和功耗测量联系起来看。
 
-这个案例能把机械结构、控制程序和功耗测量连接起来。下面既保留团队公开介绍的指标，也讨论怎样建立对照实验，让学生能够解释一个改进究竟来自哪里。
-
+这一页保留团队公开介绍的指标，也整理了对照实验的思路。我更想弄清楚的是：如果说一个设计更轻、更省电，需要怎样的测量才能说明这个改进。
 
 <figure class="case-photo">
 <a href="https://conrad.spacecenter.org/2026-awards/" target="_blank" rel="noopener"><img src="https://conrad.spacecenter.org/wp-content/uploads/2026/04/Aphelion.avif" alt="Aphelion 在官方获奖介绍中的项目配图" loading="lazy" decoding="async"></a>

@@ -1,9 +1,8 @@
 # BeeGuard：从蜂群诊断到持续服务
 
-养蜂者如果能更早发现蜂群异常，就可能及时采取措施。BeeGuard 尝试结合视觉、声音与行为分析识别蜂群健康问题，让我们看到 AI 应用如何进入一个具体农业场景。
+BeeGuard 把视觉、声音和蜂群行为用于健康诊断，让我看到 AI 可以怎样进入一个具体的农业场景。它也让我想到，模型表现和用户愿意持续使用，是需要分别回答的问题。
 
-这一页讨论数据、模型和验证，也把诊断功能放进订阅服务的商业思路中。阅读时可以追问：模型在不同蜂箱和环境中是否稳定，用户又为什么愿意持续使用？
-
+下面整理数据、模型和验证思路，并联系订阅服务讨论商业价值。不同蜂箱和环境中的稳定性，以及养蜂者真实的使用需要，是我阅读时关注的两个问题。
 
 <figure class="case-photo">
 <a href="https://conrad.spacecenter.org/2026-awards/" target="_blank" rel="noopener"><img src="https://conrad.spacecenter.org/wp-content/uploads/2026/04/The-Bee-Initiative.avif" alt="BeeGuard 在官方获奖介绍中的项目配图" loading="lazy" decoding="async"></a>

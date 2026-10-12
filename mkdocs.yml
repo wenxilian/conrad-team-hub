@@ -1,10 +1,11 @@
-site_name: Conrad Challenge 团队参赛与创新实践指南
-site_description: 非官方独立学习资料：赛事、工程验证、商业分析与团队实践。
+site_name: Conrad Challenge 参赛资料与学习笔记
+site_description: Thomas Lian 整理的 Conrad Challenge 参赛资料与学习笔记：赛事、往届项目、技术与商业分析。
+site_author: Thomas Lian
 site_url: http://127.0.0.1:8000/
 docs_dir: docs
 site_dir: site
 use_directory_urls: false
-copyright: 团队内部交流资料 · 更新于 2026-10-12
+copyright: Thomas Lian · 参赛资料与学习笔记 · 更新于 2026-10-12
 theme:
   name: material
   language: zh
@@ -56,7 +57,7 @@ validation:
     anchors: warn
 nav:
 - 开始阅读:
-  - 使用本站: index.md
+  - 关于这份资料: index.md
   - 阅读路线与报名决策:
     - 家长与学生阅读路线: 00-start/reading-paths.md
     - 投入与报名决策: 00-start/decision.md

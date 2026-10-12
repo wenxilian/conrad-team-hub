@@ -1,9 +1,8 @@
 # DiveGuard：潜水时怎样传递一条短消息
 
-潜水员在水下想向同伴或水面传递信息时，常规无线电通信会受到限制。DiveGuard 围绕这个问题提出低成本声学短消息系统，适合用来讨论通信性能与具体使用场景之间的关系。
+DiveGuard 从潜水时传递短消息的困难出发，提出低成本声学通信方案。这个案例让我想了解，通信距离、延迟和可靠性怎样影响一件设备的实际用途。
 
-这一页先看技术与测试，再讨论潜水机构和使用者的购买需求。市场估计和财务练习放在同一个案例里，帮助我们理解：一个设备能工作，距离形成可持续的产品还需要回答哪些问题。
-
+下面先整理技术与测试问题，再看潜水机构和个人使用者的购买需求。我也保留了市场规模与财务算例，方便把技术和商业两部分放在一起理解。
 
 <figure class="case-photo">
 <a href="https://conrad.spacecenter.org/2026-awards/" target="_blank" rel="noopener"><img src="https://conrad.spacecenter.org/wp-content/uploads/2026/04/DiveGuard_China-Cyber.avif" alt="DiveGuard 在官方获奖介绍中的项目配图" loading="lazy" decoding="async"></a>
