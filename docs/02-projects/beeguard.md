@@ -53,8 +53,16 @@ $$
 
 ## 延伸阅读
 
-- [案例对照](comparison.md)。
-- [工程测试](../03-engineering/testing.md)。
+- [案例对照](index.md#comparison)。
+- [工程测试](../03-engineering/programming.md#testing)。
 - [商业专题](../04-business/beeguard-case.md)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+
+## 图解与教学模拟
+
+<div class="relationship-figure"><div class="diagram-branches"><div class="diagram-node">蜂群视频<br><small>视觉特征</small></div><div class="diagram-node">蜂群音频<br><small>声学特征</small></div><div class="diagram-node">行为记录<br><small>追踪与时间特征</small></div></div><div class="diagram-root">↓ 多模态分析与异常识别 ↓</div><div class="diagram-support">验证：不同蜂群、季节、视频条件下的误报、漏报与复用意愿</div><p class="figure-caption">教学技术管线；团队原始数据与全部模块实现仍需核实。</p></div>
+
+这是技术理解示意；不能证明队伍已完成所有模块。训练测试划分和原始数据仍需查证。[案例](beeguard.md)。
+
+<div class="calculator" data-model="saas"></div>

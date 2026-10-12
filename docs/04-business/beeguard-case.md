@@ -26,6 +26,15 @@ $$
 
 以上示范最有价值的不是数字整齐，而是每一处金额、用户数及性能数字都有可验证来源。
 
+
+## 就地计算：参数如何影响结论
+
+<div class="calculator" data-model="saas"></div>
+
+<div class="relationship-figure"><div class="diagram-branches"><div class="diagram-node">蜂群视频<br><small>视觉特征</small></div><div class="diagram-node">蜂群音频<br><small>声学特征</small></div><div class="diagram-node">行为记录<br><small>追踪与时间特征</small></div></div><div class="diagram-root">↓ 多模态分析与异常识别 ↓</div><div class="diagram-support">验证：不同蜂群、季节、视频条件下的误报、漏报与复用意愿</div><p class="figure-caption">教学技术管线；团队原始数据与全部模块实现仍需核实。</p></div>
+
+这是技术理解示意；不能证明队伍已完成所有模块。训练测试划分和原始数据仍需查证。[案例](../02-projects/beeguard.md)。
+
 ## 延伸阅读
 
 - [家庭硬件六周实践](household-hardware.md)。

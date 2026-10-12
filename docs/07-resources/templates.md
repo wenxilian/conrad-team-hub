@@ -17,6 +17,6 @@
 
 ## 延伸阅读
 
-- [访谈完整说明](../04-business/market-research.md)。
+- [访谈完整说明](../04-business/household-hardware.md#interviews)。
 
 资料边界与更正记录见 [来源核查](source-method.md)。

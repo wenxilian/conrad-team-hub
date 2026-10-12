@@ -1,4 +1,11 @@
+---
+search:
+  exclude: true
+---
+
 # Innovation Brief、视频、网站与评分
+
+完整上下文已合并到 [连续阅读章节](introduction.md#submissions)，本页保留原链接兼容。
 
 > 资料性质：官方规定 + 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
 
@@ -36,7 +43,7 @@ Innovation Video 为 3–5 分钟，应展示模型或原型；MP4 文件小于 
 
 ## 延伸阅读
 
-- [商业章节写作](../04-business/brief.md)。
-- [工程证据包](../03-engineering/evidence.md)。
+- [商业章节写作](../04-business/five-models.md#brief)。
+- [工程证据包](../03-engineering/programming.md#evidence)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。

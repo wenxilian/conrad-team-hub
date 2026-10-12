@@ -11,6 +11,7 @@
 该案例适合学习无人机与应急监测的系统思路。讨论称由中国学生团队开发，2025 中国站金奖及全球 Power Pitch；需复核对应获奖目录。官方资料确认无人机群与三维火势预测的方案描述；底稿中的待核技术线索还包括传感器与物理信息神经网络 (PINN)，不得当作已确认实现。官网摘要不足以确认多机自主飞行的实际成熟度、公开代码、训练数据或真实误差。不能把「使用了 PINN」等同于证明已经达到实战部署要求。
 
 教学拆解：
+
 - 平台：无人机载荷、供电、传感器、GPS / IMU。
 - 数据：图像、热成像、时间与位置标记，Python/NumPy/Pandas/OpenCV。
 - 模型：由简化传播模型到有物理约束的学习模型，比较 baseline。
@@ -23,6 +24,8 @@
 ### 技术管线
 
 `公开或合法采集的图像/热成像 + 风速/风向/地形 → 时间同步与位置配准 → 火情区域提取 → 简化传播基线 → 改进预测模型 → 风险地图 → 模拟监测任务调度`。
+
+<div class="relationship-figure"><div class="diagram-branches"><div class="diagram-node">图像 / 热成像<br><small>合法采集或公开数据</small></div><div class="diagram-node">风向、风速、地形<br><small>时间同步与位置配准</small></div></div><div class="diagram-root">↓ 火情区域提取与数据处理 ↓</div><div class="diagram-row"><div class="diagram-node">简化传播基线</div><span class="diagram-arrow">→</span><div class="diagram-node">改进预测与误差比较</div><span class="diagram-arrow">→</span><div class="diagram-node">风险地图与监测任务仿真</div></div><p class="figure-caption">教学技术管线。PINN具体实现及多机实飞成熟度未核实；用公开数据与安全仿真验证。</p></div>
 
 第一阶段可先完成离线图像处理；第二阶段使用公开数据进行传播预测；第三阶段仅在仿真环境展示多机任务调度。不应先承诺已经实现多无人机自主实飞。底稿提及的 PINN 具体实现尚待核实；作为教学方向，PINN 是物理信息神经网络，教学时要说明偏微分/物理约束与损失函数的关系，但高中生不必从头研发复杂物理求解器。
 
@@ -57,8 +60,8 @@ Python、NumPy、Pandas、OpenCV、Matplotlib 作为入门；可根据需要加�
 
 ## 延伸阅读
 
-- [案例对照](comparison.md)。
-- [工程测试](../03-engineering/testing.md)。
-- [工程专题](../03-engineering/fireaidss.md)。
+- [案例对照](index.md#comparison)。
+- [工程测试](../03-engineering/programming.md#testing)。
+- [工程专题](../03-engineering/programming.md#fireaidss)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。

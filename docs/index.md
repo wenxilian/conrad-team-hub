@@ -10,12 +10,12 @@
 
 | 当前困惑 | 建议入口 |
 |---|---|
-| 家庭是否适合报名？ | [报名决策](00-start/decision.md) · [费用](01-overview/fees.md) |
-| 本届什么时候提交？ | [2026–2027 全球赛程及日期冲突](01-overview/timeline.md) |
-| 获奖项目技术做到什么程度？ | [13 个独立案例](02-projects/index.md) · [工程四层验证](03-engineering/testing.md) |
-| 商业计划从哪里开始？ | [五种模式](04-business/five-models.md) · [六周实践](04-business/six-week-plan.md) |
+| 家庭是否适合报名？ | [报名决策](00-start/decision.md) · [费用](01-overview/introduction.md#fees) |
+| 本届什么时候提交？ | [2026–2027 全球赛程及日期冲突](01-overview/introduction.md#timeline) |
+| 获奖项目技术做到什么程度？ | [13 个案例连续阅读](02-projects/index.md) · [工程四层验证](03-engineering/programming.md#testing) |
+| 商业计划从哪里开始？ | [五种模式](04-business/five-models.md) · [六周实践](04-business/household-hardware.md#six-weeks) |
 | 怎样检查财务假设？ | [三个交互模拟器](04-business/calculators.md) |
-| 成人可以帮助到哪里？ | [导师边界](05-team/mentors.md) · [学生贡献](05-team/contributions.md) |
+| 成人可以帮助到哪里？ | [导师边界](05-team/mentors.md) · [学生贡献](05-team/mentors.md#contributions) |
 
 ## 阅读时辨认信息来源
 
@@ -29,6 +29,6 @@
 
 - [阅读路线](00-start/reading-paths.md)。
 - [来源与核查](07-resources/source-method.md)。
-- [资料缺口](07-resources/missing.md)。
+- [资料缺口](07-resources/source-method.md#missing)。
 
 资料边界与更正记录见 [来源核查](07-resources/source-method.md)。

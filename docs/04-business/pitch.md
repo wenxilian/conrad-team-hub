@@ -1,4 +1,11 @@
+---
+search:
+  exclude: true
+---
+
 # 四页商业展示与评委追问
+
+完整上下文已合并到 [连续阅读章节](five-models.md#pitch)，本页保留原链接兼容。
 
 > 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
 
@@ -17,6 +24,7 @@
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
 
 ## 七个评委问题
+
 1. **Step 1**: How did you calculate market size? 指向同口径来源和计算过程。
 2. **Step 2**: How many users did you interview? 说明样本与招募方式。
 3. **Step 3**: Why would customers switch? 用替代方案和用户行为解释。
@@ -24,4 +32,5 @@
 5. **Step 5**: What is the weakest assumption? 说明结论对它如何敏感。
 6. **Step 6**: What happens if a safety-critical sensor fails? 解释安全停止。
 7. **Step 7**: What will you do if the prototype fails to reproduce the result? 保留失败日志，提出下一轮验证。
+
 这些是教学题库，不是主办方规定的正式问题。

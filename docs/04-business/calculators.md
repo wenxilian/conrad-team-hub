@@ -24,7 +24,7 @@
 
 ## 延伸阅读
 
-- [计算的原始假设](calculator-spec.md)。
-- [NPV 与成本](cost-pricing.md)。
+- [计算的原始假设](household-hardware.md#model-limits)。
+- [NPV 与成本](household-hardware.md#savings)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。

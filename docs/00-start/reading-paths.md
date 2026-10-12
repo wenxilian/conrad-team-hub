@@ -15,7 +15,7 @@
 
 ## 延伸阅读
 
-- [参赛规则](../01-overview/rules.md)。
+- [参赛规则](../01-overview/introduction.md#eligibility)。
 - [获奖项目](../02-projects/index.md)。
 - [报名决策](decision.md)。
 

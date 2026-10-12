@@ -14,8 +14,8 @@
 
 ## 延伸阅读
 
-- [三道 Gate](../06-planning/stage-gates.md)。
-- [全球时间表](../01-overview/timeline.md)。
+- [三道 Gate](../06-planning/planning-questions.md#gates)。
+- [全球时间表](../01-overview/introduction.md#timeline)。
 - [导师职责](../05-team/mentors.md)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。

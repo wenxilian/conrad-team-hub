@@ -49,8 +49,18 @@
 
 ## 延伸阅读
 
-- [案例对照](comparison.md)。
-- [工程测试](../03-engineering/testing.md)。
-- [工程专题](../03-engineering/rescuebot.md)。
+- [案例对照](index.md#comparison)。
+- [工程测试](../03-engineering/programming.md#testing)。
+- [工程专题](../03-engineering/programming.md#rescuebot)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+
+## 图解与教学模拟
+
+<div class="relationship-figure">
+<div class="diagram-row"><div class="diagram-node">启动命令与自检<br><small>目标、急停、电池</small></div><span class="diagram-arrow">→</span><div class="diagram-node">控制器<br><small>检查里程、障碍与状态</small></div><span class="diagram-arrow">→</span><div class="diagram-node">正常执行<br><small>限速驱动 → 到达停车、亮灯</small></div></div>
+<div class="feedback-label">↑ 传感器反馈：每个控制周期回到控制器</div>
+<div class="diagram-alert">异常分支：障碍 / 断连 / 超时 / 急停 → 关闭电机、安全停止 → 人工确认后复位</div>
+<p class="figure-caption">教学控制示意，不是获奖队伍的原始控制图。异常处理优先于正常执行。</p></div>
+
+传感反馈在每个周期回到控制器。故障后需要人工确认再复位，不能自动重启。[状态机伪代码与测试矩阵](../03-engineering/programming.md#rescuebot)。

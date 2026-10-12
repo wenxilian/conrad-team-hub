@@ -54,8 +54,20 @@ $$
 
 ## 延伸阅读
 
-- [案例对照](comparison.md)。
-- [工程测试](../03-engineering/testing.md)。
+- [案例对照](index.md#comparison)。
+- [工程测试](../03-engineering/programming.md#testing)。
 - [商业专题](../04-business/diveguard-case.md)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+
+## 图解与教学模拟
+
+<div class="flow-grid">
+<div class="flow-card"><strong>TAM：124 亿美元</strong><p>底稿中的行业总额口径。</p></div>
+<div class="flow-card"><strong>SAM：2.16 亿美元</strong><p>底稿中的可服务市场估计。</p></div>
+<div class="flow-card"><strong>SOM：648 万美元</strong><p>底稿中的可获得市场估计。</p></div>
+</div>
+
+这些为团队申报，旅游总额与设备市场口径不同，故不画成严格嵌套集合或按面积暗示比例。真正可获得市场需要客户、区域、年份和收入单位一致。[完整说明](../04-business/diveguard-case.md#market-sizing)。
+
+<div class="calculator" data-model="hardware"></div>

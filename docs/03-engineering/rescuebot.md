@@ -1,4 +1,11 @@
+---
+search:
+  exclude: true
+---
+
 # RescueBot：状态机与封闭测试
+
+完整上下文已合并到 [连续阅读章节](programming.md#rescuebot)，本页保留原链接兼容。
 
 > 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
 
@@ -28,8 +35,8 @@
 
 ## 延伸阅读
 
-- [验证四层](testing.md)。
-- [安全边界](../06-planning/safety.md)。
+- [验证四层](programming.md#testing)。
+- [安全边界](../06-planning/planning-questions.md#safety)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
 

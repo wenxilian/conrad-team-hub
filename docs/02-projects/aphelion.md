@@ -17,6 +17,8 @@ $$
 u(t)=K_{p}e(t)+K_{i}\int_{0}^{t} e(\tau)d\tau+K_{d}\frac{de(t)}{dt}
 $$
 
+<div class="relationship-figure"><div class="diagram-row"><div class="diagram-node">目标角度 r(t)</div><span class="diagram-arrow">→</span><div class="diagram-node">误差 e(t) 与 PID<br><small>比例、积分、微分</small></div><span class="diagram-arrow">→</span><div class="diagram-node">驱动与执行器<br><small>安全限幅、停止保护</small></div></div><div class="feedback-label">↑ 编码器测得 y(t) → 回到控制器，更新 e(t)=r(t)−y(t)</div><div class="diagram-support">同任务测试：定位误差 · 响应时间 · 超调 · 重复性 · 负载 · 总能量</div><p class="figure-caption">教学闭环控制示意，不是获奖团队的原始结构图。参数调试不能替代设备保护。</p></div>
+
 
 学生可用 Arduino、ESP32 等成熟控制器建立传感反馈、闭环驱动、日志与 Python 图形。测试定位平均/最大误差、阶跃响应、稳定时间、重复性、功率与完成同一任务的总能量；不能仅靠某时刻功率声称节能。
 
@@ -73,9 +75,9 @@ $$
 
 ## 延伸阅读
 
-- [案例对照](comparison.md)。
-- [工程测试](../03-engineering/testing.md)。
-- [工程专题](../03-engineering/aphelion.md)。
+- [案例对照](index.md#comparison)。
+- [工程测试](../03-engineering/programming.md#testing)。
+- [工程专题](../03-engineering/programming.md#aphelion)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
 

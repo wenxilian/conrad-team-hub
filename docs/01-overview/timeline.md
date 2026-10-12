@@ -1,4 +1,11 @@
+---
+search:
+  exclude: true
+---
+
 # 2026–2027 赛程：中国站与全球站分开看
+
+完整上下文已合并到 [连续阅读章节](introduction.md#timeline)，本页保留原链接兼容。
 
 > 资料性质：官方规定 + 待核实。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
 
@@ -25,7 +32,7 @@
 
 ## 延伸阅读
 
-- [费用预算](fees.md)。
-- [阶段评审](../06-planning/stage-gates.md)。
+- [费用预算](introduction.md#fees)。
+- [阶段评审](../06-planning/planning-questions.md#gates)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。

@@ -33,7 +33,7 @@ AI 视觉辅助：智能眼镜用于环境感知、文字识别、语音交互�
 
 ## 延伸阅读
 
-- [案例对照](comparison.md)。
-- [工程测试](../03-engineering/testing.md)。
+- [案例对照](index.md#comparison)。
+- [工程测试](../03-engineering/programming.md#testing)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。

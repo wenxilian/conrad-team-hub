@@ -1,4 +1,11 @@
+---
+search:
+  exclude: true
+---
+
 # 参赛资格、报名与学生主导
+
+完整上下文已合并到 [连续阅读章节](introduction.md#eligibility)，本页保留原链接兼容。
 
 > 资料性质：官方规定 + 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
 
@@ -22,6 +29,6 @@ Conrad Challenge 的项目驱动特征表现为：现实世界问题是出发点
 ## 延伸阅读
 
 - [导师边界](../05-team/mentors.md)。
-- [时间与费用](timeline.md)。
+- [时间与费用](introduction.md#timeline)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。

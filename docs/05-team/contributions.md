@@ -1,4 +1,11 @@
+---
+search:
+  exclude: true
+---
+
 # 先期成果与学生贡献盘点
+
+完整上下文已合并到 [连续阅读章节](mentors.md#contributions)，本页保留原链接兼容。
 
 > 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
 
@@ -8,7 +15,7 @@
 
 ## 延伸阅读
 
-- [当届参赛规则](../01-overview/rules.md)。
-- [公开与保密](../06-planning/ip-disclosure.md)。
+- [当届参赛规则](../01-overview/introduction.md#eligibility)。
+- [公开与保密](../06-planning/planning-questions.md#ip)。
 
 资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。

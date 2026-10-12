@@ -1,4 +1,11 @@
+---
+search:
+  exclude: true
+---
+
 # 竞品 TCO、BOM 与三情景财务
+
+完整上下文已合并到 [连续阅读章节](household-hardware.md#competition)，本页保留原链接兼容。
 
 > 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
 
