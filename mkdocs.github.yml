@@ -1,0 +1,3 @@
+INHERIT: mkdocs.yml
+site_url: https://wenxilian.github.io/conrad-team-hub/
+site_dir: dist/github/conrad-team-hub

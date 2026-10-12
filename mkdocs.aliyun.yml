@@ -1,0 +1,4 @@
+INHERIT: mkdocs.yml
+# 正式域名待确认。
+site_url: ''
+site_dir: dist/aliyun

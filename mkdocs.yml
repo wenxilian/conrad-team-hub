@@ -1,0 +1,140 @@
+site_name: Conrad Challenge 团队参赛与创新实践指南
+site_description: 非官方独立学习资料：赛事、工程验证、商业分析与团队实践。
+site_url: http://127.0.0.1:8000/
+docs_dir: docs
+site_dir: site
+use_directory_urls: false
+copyright: 非官方独立学习资料 · 核查日期 2026-10-12 · 参赛前复核当届规则
+theme:
+  name: material
+  language: zh
+  font: false
+  palette:
+    scheme: default
+    primary: white
+    accent: blue
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.top
+  - navigation.footer
+  - search.suggest
+  - search.highlight
+  - content.code.copy
+plugins:
+- search:
+    lang:
+    - zh
+    - en
+markdown_extensions:
+- admonition
+- attr_list
+- md_in_html
+- tables
+- toc:
+    permalink: true
+    toc_depth: 3
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.highlight
+- pymdownx.arithmatex:
+    generic: true
+- pymdownx.magiclink
+extra_css:
+- assets/vendor/katex/katex.min.css
+- assets/stylesheets/reading.css
+extra_javascript:
+- assets/vendor/katex/katex.min.js
+- assets/javascripts/math.js
+- assets/javascripts/calculators.js
+- assets/javascripts/visuals.js
+validation:
+  nav:
+    omitted_files: info
+  links:
+    not_found: warn
+    anchors: warn
+nav:
+- 开始阅读:
+  - 使用本站: index.md
+  - 报名决策：时间、能力、预算与退出条件: 00-start/decision.md
+  - 家长与学生的两条阅读路线: 00-start/reading-paths.md
+- 认识赛事:
+  - 赛事定位：从现实问题到创新实践: 01-overview/introduction.md
+  - 参赛资格、报名与学生主导: 01-overview/rules.md
+  - 五个领域与选题边界: 01-overview/categories.md
+  - 2026–2027 赛程：中国站与全球站分开看: 01-overview/timeline.md
+  - Innovation Brief、视频、网站与评分: 01-overview/submissions.md
+  - 费用与完整参赛预算: 01-overview/fees.md
+  - 奖项与升学价值的边界: 01-overview/awards.md
+- 历届获奖项目:
+  - 2024–2026 案例阅读地图: 02-projects/index.md
+  - 八个核心案例：技术、验证与商业对照: 02-projects/comparison.md
+  - Soaring Seeds：问题、技术与验证: 02-projects/soaring-seeds.md
+  - DiveGuard：问题、技术与验证: 02-projects/diveguard.md
+  - VisionBridge：问题、技术与验证: 02-projects/visionbridge.md
+  - OctoScope：问题、技术与验证: 02-projects/octoscope.md
+  - FireAIDSS：问题、技术与验证: 02-projects/fireaidss.md
+  - Aphelion：问题、技术与验证: 02-projects/aphelion.md
+  - BeeGuard：问题、技术与验证: 02-projects/beeguard.md
+  - OncoMap：问题、技术与验证: 02-projects/oncomap.md
+  - RescueBot：问题、技术与验证: 02-projects/rescuebot.md
+  - Aquabel：技术与商业价值: 02-projects/aquabel.md
+  - SensAir：技术与商业价值: 02-projects/sensair.md
+  - ChitoClear：技术与商业价值: 02-projects/chitoclear.md
+  - AeroLattice：技术与商业价值: 02-projects/aerolattice.md
+  - 官方介绍页与团队独立官网: 02-projects/sources-status.md
+- 工程与技术能力:
+  - Python 与嵌入式：L1–L4 能力: 03-engineering/programming.md
+  - 四级工程能力与评价边界: 03-engineering/levels.md
+  - FireAIDSS：数据、预测与仿真: 03-engineering/fireaidss.md
+  - Aphelion：闭环控制与能量测量: 03-engineering/aphelion.md
+  - RescueBot：状态机与封闭测试: 03-engineering/rescuebot.md
+  - 三个工程项目的能力门槛: 03-engineering/comparison.md
+  - 工程证据包与贡献归属: 03-engineering/evidence.md
+  - 从 PoC 到可靠性：四层验证: 03-engineering/testing.md
+- 商业计划与市场验证:
+  - 商业分析需要哪些入门知识: 04-business/prerequisites.md
+  - 五种商业论证模式: 04-business/five-models.md
+  - 商业计算：完整公式与情景: 04-business/calculations.md
+  - 商业章节与英文 Brief: 04-business/brief.md
+  - BeeGuard：订阅、用户与验证: 04-business/beeguard-case.md
+  - DiveGuard：市场与硬件盈亏平衡: 04-business/diveguard-case.md
+  - 五种模式的调研与证据: 04-business/model-workshop.md
+  - 20–30 小时商业学习安排: 04-business/courses.md
+  - 四页商业展示与评委追问: 04-business/pitch.md
+  - 家庭硬件商业验证：WP1–WP5: 04-business/household-hardware.md
+  - 六周市场与成本验证课表: 04-business/six-week-plan.md
+  - 家庭访谈：问题、记录与伦理: 04-business/market-research.md
+  - 成本、回收期与净现值: 04-business/cost-pricing.md
+  - 竞品 TCO、BOM 与三情景财务: 04-business/competition.md
+  - 财务模拟器的参数与适用边界: 04-business/calculator-spec.md
+  - 市场验证结束时的证据文件: 04-business/evidence-files.md
+  - TAM、SAM、SOM：口径与自下而上计算: 04-business/market-sizing.md
+  - 三个财务模拟器：改变假设，检查结论: 04-business/calculators.md
+- 团队与导师:
+  - 成人导师：指导、资源与学生主导: 05-team/mentors.md
+  - 家长指导的具体边界: 05-team/mentor-scenarios.md
+  - 队伍职责、选拔与会议节奏: 05-team/roles.md
+  - 先期成果与学生贡献盘点: 05-team/contributions.md
+  - 家长与学生常见问题: 05-team/faq.md
+- 项目执行与风险:
+  - 立项前要确认的八个问题: 06-planning/planning-questions.md
+  - 八项风险及缓解方案: 06-planning/risks.md
+  - 三个 Gate：继续、收缩或暂停: 06-planning/stage-gates.md
+  - 内部立项报告如何组织: 06-planning/feasibility.md
+  - 权属、保密与公开披露: 06-planning/ip-disclosure.md
+  - 测试安全：用可控场景验证核心功能: 06-planning/safety.md
+- 资料与工具箱:
+  - Markdown 单源、学习网站与双平台部署: 07-resources/website-project.md
+  - 来源方法、核查结果与事实边界: 07-resources/source-method.md
+  - 官方资料与获奖档案: 07-resources/official-links.md
+  - 原有参考链接与可访问性记录: 07-resources/link-register.md
+  - 图片位置、原检索线索与可视化清单: 07-resources/media-register.md
+  - 资料缺口与下一轮核查: 07-resources/missing.md
+  - 工程与商业术语: 07-resources/glossary.md
+  - 访谈、成本、实验与答辩空白模板: 07-resources/templates.md
+  - 12 类图表重建: 07-resources/visual-tools.md
+exclude_docs: 'assets/vendor/katex/*.md
+
+  '
