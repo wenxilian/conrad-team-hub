@@ -1,6 +1,15 @@
-# OctoScope：问题、技术与验证
+# OctoScope：技术方案与环境价值怎样连接
 
-> 资料性质：获奖事实 / 团队申报 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
+能源与环境方向的项目，通常要把一个技术改进和实际资源使用联系起来。OctoScope 是中国团队的获奖案例，可以帮助我们讨论：怎样描述方案的价值，又怎样用可比较的指标支持这个描述。
+
+这一页保留项目介绍、验证建议和商业思路。阅读时，可以留意方案在什么场景下使用、与什么替代方式比较，以及性能数字需要哪些测试条件。
+
+
+<figure class="case-photo">
+<a href="https://conrad.spacecenter.org/2026-awards/" target="_blank" rel="noopener"><img src="https://conrad.spacecenter.org/wp-content/uploads/2026/04/Team-Octocope_China-1024x681.jpeg" alt="OctoScope 在官方获奖介绍中的项目配图" loading="lazy" decoding="async"></a>
+<figcaption>OctoScope 的官方介绍配图。<a href="https://conrad.spacecenter.org/2026-awards/">图片与项目介绍来源：2026 年获奖档案</a>。核查于 2026-10-12。</figcaption>
+<p class="photo-unavailable" hidden>这张官方图片暂时未能载入，可以<a href="https://conrad.spacecenter.org/2026-awards/">打开项目原始报道</a>查看。</p>
+</figure>
 
 ## 官方名录核查
 
@@ -12,7 +21,7 @@
 
 ## 教学拆解：客户、验证与商业路线
 
-以下为本项目建议，不能解释为获奖团队已经完成的实验。
+读到这里，我们可以进一步考虑如何验证和推广类似方案。下面是供团队练习的建议，尚不是获奖团队已完成实验的记录。
 
 目标客户：航道运营者、航运企业与维护承包方。
 
@@ -27,13 +36,12 @@
 | 官方名录事实 | 上方列明的年度奖项归属 |
 | 团队申报 | 方案说明、性能及市场数字；未作独立复现 |
 | 教学推断与模拟 | 客户研究、程序和实验建议；不归给获奖团队 |
-| 尚无证据 | 完整代码、原始数据、全部工况报告、专利授权细节、独立官网及原图转载许可 |
+| 尚无证据 | 完整代码、原始数据、全部工况报告、专利授权细节、独立官网及完整实验资料 |
 
-图片位置：OctoScope 的官方项目展示图尚未取得可确认的转载许可。请通过上方官方档案查看原始报道；本站不以示意照片冒充原型。
 
 ## 延伸阅读
 
 - [案例对照](index.md#comparison)。
 - [工程测试](../03-engineering/programming.md#testing)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。

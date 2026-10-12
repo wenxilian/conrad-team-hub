@@ -15,12 +15,13 @@ def validate(directory):
  scans={}
  for p in directory.rglob('*.html'):
   s=Scan();s.feed(p.read_text(encoding='utf-8'));scans[p.resolve()]=s
- broken=[];anchors=[];external_assets=[]
+ broken=[];anchors=[];external_assets=[];external_media=[]
  for p,s in scans.items():
   for tag,a,url in s.refs:
    u=urlsplit(url)
    if u.scheme or u.netloc:
-    if a=='src' or tag=='script' or (tag=='link' and u.path.endswith('.css')):external_assets.append([str(p.relative_to(directory)),url])
+    if tag in ['img','source'] and a=='src':external_media.append([str(p.relative_to(directory)),url])
+    elif a=='src' or tag=='script' or (tag=='link' and u.path.endswith('.css')):external_assets.append([str(p.relative_to(directory)),url])
     continue
    if not u.path:target=p
    elif u.path.startswith('/'):
@@ -39,7 +40,7 @@ def validate(directory):
    url=url.strip(' "\'');u=urlsplit(url)
    if u.scheme or u.netloc:continue
    if not (p.parent/unquote(u.path)).exists():broken.append([str(p.relative_to(directory)),url,'CSS asset missing'])
- return {'html_pages':len(scans),'broken_links':broken,'missing_anchors':anchors,'external_runtime_assets':external_assets}
+ return {'html_pages':len(scans),'broken_links':broken,'missing_anchors':anchors,'external_runtime_assets':external_assets,'external_reference_media':external_media}
 out={}
 for name in ['github/conrad-team-hub','aliyun']:
  d=(r/'dist'/name).resolve()

@@ -7,8 +7,6 @@ search:
 
 完整上下文已合并到 [连续阅读章节](introduction.md#timeline)，本页保留原链接兼容。
 
-> 资料性质：官方规定 + 待核实。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
-
 ## 全球站：以正式指南为准
 
 | 阶段 | 正式指南日期 | 需要完成什么 |
@@ -22,7 +20,7 @@ search:
 
 来源：[正式指南](https://conrad.spacecenter.org/wp-content/uploads/2026/08/2026-2027-Conrad-Challenge-Student-Guide-Official.pdf)、[赛事聚合页](https://conrad.spacecenter.org/the-challenge/)，核查于 2026-10-12。
 
-## 底稿中的中国站安排：尚待正式文件确认
+## 前期资料中的中国站安排：尚待正式文件确认
 
 2026–2027 全球站在此前讨论中采用以下节点：Activation 2026-08-27 至 2026-10-29；Innovation 2026-10-29 至 2027-01-07；全球决赛入围公布约为 2027-02-26；Innovation Summit 约为 2027-04-21 至 04-24 (美国休斯敦)。中国站讨论过早鸟报名 2026-10-16、常规截止 2026-12-14、初选材料 2026-12-25、初选结果 2027-01-20、决选 2027-03-11 至 14。**日期可能有不同页面一天的差异；应分别按中国站与全球站的正式材料核对，不混用赛程。**
 
@@ -35,4 +33,4 @@ search:
 - [费用预算](introduction.md#fees)。
 - [阶段评审](../06-planning/planning-questions.md#gates)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。

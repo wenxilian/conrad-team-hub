@@ -7,8 +7,6 @@ search:
 
 完整上下文已合并到 [连续阅读章节](programming.md#levels)，本页保留原链接兼容。
 
-> 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
-
 | 层级 | 能力 | 可交付成果 | 不能用什么替代 |
 |---|---|---|---|
 | L1 基础编程 | Python 函数、循环、文件和绘图 | 传感器数据读取、图形与基础脚本 | 演示别人写好的现成程序 |
@@ -23,4 +21,4 @@ search:
 - [验证四层](programming.md#testing)。
 - [安全边界](../06-planning/planning-questions.md#safety)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。

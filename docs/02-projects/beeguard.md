@@ -1,6 +1,15 @@
-# BeeGuard：问题、技术与验证
+# BeeGuard：从蜂群诊断到持续服务
 
-> 资料性质：获奖事实 / 团队申报 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
+养蜂者如果能更早发现蜂群异常，就可能及时采取措施。BeeGuard 尝试结合视觉、声音与行为分析识别蜂群健康问题，让我们看到 AI 应用如何进入一个具体农业场景。
+
+这一页讨论数据、模型和验证，也把诊断功能放进订阅服务的商业思路中。阅读时可以追问：模型在不同蜂箱和环境中是否稳定，用户又为什么愿意持续使用？
+
+
+<figure class="case-photo">
+<a href="https://conrad.spacecenter.org/2026-awards/" target="_blank" rel="noopener"><img src="https://conrad.spacecenter.org/wp-content/uploads/2026/04/The-Bee-Initiative.avif" alt="BeeGuard 在官方获奖介绍中的项目配图" loading="lazy" decoding="async"></a>
+<figcaption>BeeGuard 的官方介绍配图。<a href="https://conrad.spacecenter.org/2026-awards/">图片与项目介绍来源：2026 年获奖档案</a>。核查于 2026-10-12。</figcaption>
+<p class="photo-unavailable" hidden>这张官方图片暂时未能载入，可以<a href="https://conrad.spacecenter.org/2026-awards/">打开项目原始报道</a>查看。</p>
+</figure>
 
 ## 官方名录核查
 
@@ -47,9 +56,8 @@ $$
 | 官方名录事实 | 上方列明的年度奖项归属 |
 | 团队申报 | 方案说明、性能及市场数字；未作独立复现 |
 | 教学推断与模拟 | 客户研究、程序和实验建议；不归给获奖团队 |
-| 尚无证据 | 完整代码、原始数据、全部工况报告、专利授权细节、独立官网及原图转载许可 |
+| 尚无证据 | 完整代码、原始数据、全部工况报告、专利授权细节、独立官网及完整实验资料 |
 
-图片位置：BeeGuard 的官方项目展示图尚未取得可确认的转载许可。请通过上方官方档案查看原始报道；本站不以示意照片冒充原型。
 
 ## 延伸阅读
 
@@ -57,7 +65,7 @@ $$
 - [工程测试](../03-engineering/programming.md#testing)。
 - [商业专题](../04-business/beeguard-case.md)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。
 
 ## 图解与教学模拟
 

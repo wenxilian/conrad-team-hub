@@ -7,8 +7,6 @@ search:
 
 完整上下文已合并到 [连续阅读章节](household-hardware.md#evidence)，本页保留原链接兼容。
 
-> 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
-
 - `customer-interviews.xlsx`：匿名访谈记录和主题编码。
 - `competitor-analysis.xlsx`：竞品链接、价格、同口径 TCO。
 - `savings-validation.xlsx`：实验数据、年度折算和计算公式。
@@ -23,4 +21,4 @@ search:
 - [商业模拟器](calculators.md)。
 - [空白模板](../07-resources/templates.md)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。

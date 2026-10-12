@@ -7,8 +7,6 @@ search:
 
 完整上下文已合并到 [连续阅读章节](five-models.md#calculations)，本页保留原链接兼容。
 
-> 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
-
 ### BeeGuard 订阅示例
 
 假设付费用户 $N=300$，月费 $P=10$ 美元，单位月度可变成本 $VC=2$ 美元：
@@ -83,7 +81,7 @@ $$
 - [家庭硬件六周实践](household-hardware.md)。
 - [公式与模拟器](calculators.md)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。
 
 ## 符号、单位和条件
 

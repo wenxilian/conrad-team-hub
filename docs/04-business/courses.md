@@ -7,8 +7,6 @@ search:
 
 完整上下文已合并到 [连续阅读章节](five-models.md#courses)，本页保留原链接兼容。
 
-> 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
-
 | 能力 | 对应大学入门知识 | 具体提交物 |
 |---|---|---|
 | 需求调研 | Marketing Research | 访谈提纲与匿名记录 |
@@ -26,4 +24,4 @@ search:
 - [家庭硬件六周实践](household-hardware.md)。
 - [公式与模拟器](calculators.md)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。

@@ -1,6 +1,15 @@
-# Aphelion：问题、技术与验证
+# Aphelion：用球形电机改进卫星姿态控制
 
-> 资料性质：获奖事实 / 团队申报 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
+卫星需要不断调整姿态，让天线、仪器或太阳能电池板朝向合适的方向。传统多轴结构可能增加体积、重量与连接复杂度，Aphelion 尝试用球形电机和控制算法改进这一过程。
+
+这个案例能把机械结构、控制程序和功耗测量连接起来。下面既保留团队公开介绍的指标，也讨论怎样建立对照实验，让学生能够解释一个改进究竟来自哪里。
+
+
+<figure class="case-photo">
+<a href="https://conrad.spacecenter.org/2026-awards/" target="_blank" rel="noopener"><img src="https://conrad.spacecenter.org/wp-content/uploads/2026/04/Aphelion.avif" alt="Aphelion 在官方获奖介绍中的项目配图" loading="lazy" decoding="async"></a>
+<figcaption>Aphelion 的官方介绍配图。<a href="https://conrad.spacecenter.org/2026-awards/">图片与项目介绍来源：2026 年获奖档案</a>。核查于 2026-10-12。</figcaption>
+<p class="photo-unavailable" hidden>这张官方图片暂时未能载入，可以<a href="https://conrad.spacecenter.org/2026-awards/">打开项目原始报道</a>查看。</p>
+</figure>
 
 ## 官方名录核查
 
@@ -69,9 +78,8 @@ $$
 | 官方名录事实 | 上方列明的年度奖项归属 |
 | 团队申报 | 方案说明、性能及市场数字；未作独立复现 |
 | 教学推断与模拟 | 客户研究、程序和实验建议；不归给获奖团队 |
-| 尚无证据 | 完整代码、原始数据、全部工况报告、专利授权细节、独立官网及原图转载许可 |
+| 尚无证据 | 完整代码、原始数据、全部工况报告、专利授权细节、独立官网及完整实验资料 |
 
-图片位置：Aphelion 的官方项目展示图尚未取得可确认的转载许可。请通过上方官方档案查看原始报道；本站不以示意照片冒充原型。
 
 ## 延伸阅读
 
@@ -79,7 +87,7 @@ $$
 - [工程测试](../03-engineering/programming.md#testing)。
 - [工程专题](../03-engineering/programming.md#aphelion)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。
 
 ## 公式符号与能量单位
 目标角度为 $r(t)$，测得角度为 $y(t)$，误差 $e(t)=r(t)-y(t)$，控制输出为 $u(t)$。$K_{p}$、$K_{i}$ 和 $K_{d}$ 分别是比例、积分、微分增益。增益需在安全限幅下调试，模型不能代替设备保护。

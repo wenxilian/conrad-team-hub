@@ -7,8 +7,6 @@ search:
 
 完整上下文已合并到 [连续阅读章节](programming.md#evidence)，本页保留原链接兼容。
 
-> 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
-
 | 文件/目录 | 内容 |
 |---|---|
 | `engineering-design.md` | 需求、创新点、系统图、成熟组件与原创部分 |
@@ -18,7 +16,7 @@ search:
 | `data/raw/` | 保持不可覆盖的传感器原始记录 |
 | `data/processed/` | 数据清洗规则和处理后结果 |
 | `validation.md` | 对照方法、指标、实验条件、局限性 |
-| `demo/` | 实际原型或仿真演示视频及拍摄说明 |
+| `demo/` | 实际原型或模拟演示视频及拍摄说明 |
 
 若已有先期工程准备，特别要在证据包中标注哪些属于前期成人贡献、现成开源模块、导师建议及之后由学生独立完成的创新。通过 Git 版本记录、会议纪要和测试日志留下真实过程，不造假补记录。
 
@@ -27,4 +25,4 @@ search:
 - [验证四层](programming.md#testing)。
 - [安全边界](../06-planning/planning-questions.md#safety)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。

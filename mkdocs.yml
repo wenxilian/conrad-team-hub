@@ -4,7 +4,7 @@ site_url: http://127.0.0.1:8000/
 docs_dir: docs
 site_dir: site
 use_directory_urls: false
-copyright: 非官方独立学习资料 · 核查日期 2026-10-12 · 参赛前复核当届规则
+copyright: 团队内部交流资料 · 更新于 2026-10-12
 theme:
   name: material
   language: zh
@@ -47,6 +47,7 @@ extra_javascript:
 - assets/javascripts/math.js
 - assets/javascripts/calculators.js
 - assets/javascripts/visuals.js
+- assets/javascripts/project-photos.js
 validation:
   nav:
     omitted_files: ignore
@@ -62,7 +63,7 @@ nav:
 - 认识赛事:
   - 完整赛事指南: 01-overview/introduction.md
 - 历届获奖项目:
-  - 案例阅读地图: 02-projects/index.md
+  - 获奖项目导览: 02-projects/index.md
   - 独立案例:
     - Soaring Seeds: 02-projects/soaring-seeds.md
     - DiveGuard: 02-projects/diveguard.md
@@ -90,7 +91,7 @@ nav:
 - 项目执行与风险:
   - 立项、阶段评审与安全: 06-planning/planning-questions.md
 - 资料与工具箱:
-  - 来源、原图线索与资料缺口: 07-resources/source-method.md
+  - 官方资料、来源与待确认事项: 07-resources/source-method.md
   - 下载与交互工具:
     - 空白模板: 07-resources/templates.md
     - 全部财务模拟器: 04-business/calculators.md

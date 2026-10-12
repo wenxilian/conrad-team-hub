@@ -7,8 +7,6 @@ search:
 
 完整上下文已合并到 [连续阅读章节](planning-questions.md#ip)，本页保留原链接兼容。
 
-> 资料性质：官方规定 + 项目建议。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
-
 先期成果按学生独立开发、成人建议、成人直接开发、第三方开源或购买、归属未查清五类盘点。每项写清来源、实际作者、使用许可和学生新增工作。
 
 | 信息层 | 示例 | 保存与审批 |
@@ -21,4 +19,4 @@ search:
 
 来源：[全球规则页](https://conrad.spacecenter.org/the-challenge/rules-and-regulations/)，核查于 2026-10-12。美国队伍相关专利要求不可直接套给所有地区。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。

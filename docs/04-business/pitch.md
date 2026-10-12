@@ -7,8 +7,6 @@ search:
 
 完整上下文已合并到 [连续阅读章节](five-models.md#pitch)，本页保留原链接兼容。
 
-> 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
-
 1. **Problem & Customers**：痛点、真实客户访谈、现有成本。
 2. **Savings & Payback**：实验成本节省及投资回收期，与基准对比。
 3. **Market & Competitors**：竞品、市场范围、产品优缺点。
@@ -21,7 +19,7 @@ search:
 - [家庭硬件六周实践](household-hardware.md)。
 - [公式与模拟器](calculators.md)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。
 
 ## 七个评委问题
 

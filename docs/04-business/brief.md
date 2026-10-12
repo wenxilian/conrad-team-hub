@@ -7,8 +7,6 @@ search:
 
 完整上下文已合并到 [连续阅读章节](five-models.md#brief)，本页保留原链接兼容。
 
-> 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
-
 此前讨论按某赛季指南列出的英文商业章节及建议词数为 Market 300、Competition 300、Go-To-Market 150、Business Model 300、Fundraising 150，合计约 1,200 词。以 A4、12 pt、单倍行距估算约 2.5–3 页，加入图片表格可能约 3–4 页；全文 3,000 词约 6–7 页。**这些是曾讨论赛季的初步口径，Codex 需要在官网查当届指南再更新。**
 
 - Market：细分谁是使用者、谁有采购权、谁支付费用；TAM/SAM/SOM 的口径和来源必须一致。
@@ -24,8 +22,9 @@ search:
 - [家庭硬件六周实践](household-hardware.md)。
 - [公式与模拟器](calculators.md)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。
 
 ## 当届复核
 2026–2027 正式指南仍采用商业五节 300 / 300 / 150 / 300 / 150 词，合计上限 1,200 词，Brief 总上限 3,000 词。上述页数仅是排版估计，不是平台要求。
+
 来源：[正式指南](https://conrad.spacecenter.org/wp-content/uploads/2026/08/2026-2027-Conrad-Challenge-Student-Guide-Official.pdf)，核查于 2026-10-12。

@@ -1,6 +1,15 @@
-# ChitoClear：技术与商业价值
+# ChitoClear：把材料创新放进净水场景
 
-> 资料性质：获奖事实 / 团队申报 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
+材料创新要产生实际价值，需要回答材料从哪里来、怎样加工，以及在使用后如何处理。ChitoClear 是 Aquaneers 团队 Shells for Water 项目中的净水产品，为我们提供了一个连接材料与水处理的例子。
+
+下面保留其技术与商业介绍，并讨论过滤表现、成本和使用条件如何比较。阅读时可以留意实验指标，也可以思考不同地区的家庭、企业和机构是否有相同需求。
+
+
+<figure class="case-photo">
+<a href="https://conrad.spacecenter.org/2025-winners/" target="_blank" rel="noopener"><img src="https://conrad.spacecenter.org/wp-content/uploads/2025/10/1749119686091-1024x720.jpg" alt="ChitoClear 在官方获奖介绍中的项目配图" loading="lazy" decoding="async"></a>
+<figcaption>ChitoClear 的官方介绍配图。<a href="https://conrad.spacecenter.org/2025-winners/">图片与项目介绍来源：2025 年获奖档案</a>。核查于 2026-10-12。</figcaption>
+<p class="photo-unavailable" hidden>这张官方图片暂时未能载入，可以<a href="https://conrad.spacecenter.org/2025-winners/">打开项目原始报道</a>查看。</p>
+</figure>
 
 ## 官方记录
 
@@ -26,4 +35,4 @@
 
 - [五种商业模式](../04-business/five-models.md)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。

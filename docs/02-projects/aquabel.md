@@ -1,6 +1,15 @@
-# Aquabel：技术与商业价值
+# Aquabel：节水方案如何进入实际采购
 
-> 资料性质：获奖事实 / 团队申报 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
+一个节水方案是否值得购买，要同时看节水量、安装维护、设备寿命和采购成本。Aquabel 围绕公共厕所用水提出方案，适合帮助我们把技术效果与使用场景联系起来。
+
+这一页介绍项目与公开申报，再讨论节约量和成本怎样验证。读完后，可以把同样的问题带回自己的硬件项目：是谁在使用，谁在维护，又是谁作出采购决定？
+
+
+<figure class="case-photo">
+<a href="https://conrad.spacecenter.org/2025-winners/" target="_blank" rel="noopener"><img src="https://conrad.spacecenter.org/wp-content/uploads/2025/05/1、ToiletWarrior-1024x768.png" alt="Aquabel 在官方获奖介绍中的项目配图" loading="lazy" decoding="async"></a>
+<figcaption>Aquabel 的官方介绍配图。<a href="https://conrad.spacecenter.org/2025-winners/">图片与项目介绍来源：2025 年获奖档案</a>。核查于 2026-10-12。</figcaption>
+<p class="photo-unavailable" hidden>这张官方图片暂时未能载入，可以<a href="https://conrad.spacecenter.org/2025-winners/">打开项目原始报道</a>查看。</p>
+</figure>
 
 ## 官方记录
 
@@ -26,4 +35,4 @@
 
 - [五种商业模式](../04-business/five-models.md)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。

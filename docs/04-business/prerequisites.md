@@ -7,8 +7,6 @@ search:
 
 完整上下文已合并到 [连续阅读章节](five-models.md#prerequisites)，本页保留原链接兼容。
 
-> 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
-
 资料中判断商业部分约相当于学过大一入门微观经济学、Marketing、基础财务和商业创业课程后的项目实践。并非 MBA 级商业计划。需要证明用户问题、市场规模、竞品、收费、成本、推广及资金需求，而不是只堆叠宏观产业数字。
 
 此前讨论了 Innovation Brief 商业部分的典型安排 (来自 2025–2026 指南，需复核当届版本)：Market 约 300 词，Competition 约 300 词，Go-To-Market 约 150 词，Business Model 约 300 词，Fundraising 约 150 词，总计约 1,200 英文词；完整 Brief 约 3,000 词。12 pt、A4、单倍行距：商业约 2.5–3 页，含图表可 3–4 页；完整计划约 6–7 页。排版数字为经验估算。
@@ -20,8 +18,9 @@ search:
 - [家庭硬件六周实践](household-hardware.md)。
 - [公式与模拟器](calculators.md)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。
 
 ## 当届复核
 2026–2027 正式指南仍采用商业五节 300 / 300 / 150 / 300 / 150 词，合计上限 1,200 词，Brief 总上限 3,000 词。上述页数仅是排版估计，不是平台要求。
+
 来源：[正式指南](https://conrad.spacecenter.org/wp-content/uploads/2026/08/2026-2027-Conrad-Challenge-Student-Guide-Official.pdf)，核查于 2026-10-12。

@@ -1,6 +1,15 @@
-# AeroLattice：技术与商业价值
+# AeroLattice：航空降噪如何体现商业价值
 
-> 资料性质：获奖事实 / 团队申报 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
+航空技术的价值，有时体现在更小的噪声或更低的长期使用成本上。AeroLattice 提供了一个把技术指标与客户收益放在一起讨论的案例。
+
+这一页介绍公开申报，并讨论怎样理解噪声与成本数字。我们可以借此练习把“有改进”写清楚：和谁比较、在什么条件下测量，以及客户是否愿意为这种改进付费。
+
+
+<figure class="case-photo">
+<a href="https://conrad.spacecenter.org/2026-awards/" target="_blank" rel="noopener"><img src="https://conrad.spacecenter.org/wp-content/uploads/2026/04/AeroLattice.avif" alt="AeroLattice 在官方获奖介绍中的项目配图" loading="lazy" decoding="async"></a>
+<figcaption>AeroLattice 的官方介绍配图。<a href="https://conrad.spacecenter.org/2026-awards/">图片与项目介绍来源：2026 年获奖档案</a>。核查于 2026-10-12。</figcaption>
+<p class="photo-unavailable" hidden>这张官方图片暂时未能载入，可以<a href="https://conrad.spacecenter.org/2026-awards/">打开项目原始报道</a>查看。</p>
+</figure>
 
 ## 官方记录
 
@@ -26,4 +35,4 @@
 
 - [五种商业模式](../04-business/five-models.md)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。

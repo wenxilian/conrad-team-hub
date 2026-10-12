@@ -1,8 +1,8 @@
 # 工程与技术：从编程到原型验证
 
-> 非官方独立学习资料。官方规定、团队申报、教学模拟和项目建议分别标注；核查日期：2026-10-12。
+看到往届项目里的无人机、控制系统或 AI 模型，我们很容易问：高中生真的能做出来吗？对准备参赛的团队，更有用的问题是：学生需要掌握哪些能力，哪些成熟工具可以借用，又有哪些关键部分必须自己解释和验证？
 
-从能力要求进入三个工程案例，再回到测试和证据包。技术管线、控制公式、试验矩阵与失败条件保留在同一章节，便于对照阅读。
+这一页从编程与系统集成讲起，再用 FireAIDSS、Aphelion 和 RescueBot 对照不同的技术路线。后半部分讨论测试、失败记录和证据整理，帮助大家把“能运行一次”推进到“能够说明在什么条件下有效”。
 
 ## 1. 编程与系统工程的要求 {#programming}
 
@@ -17,7 +17,7 @@
 
 测试四层：Proof of Concept (功能可运行)、Performance Testing (有指标)、Benchmarking (与 baseline 比较)、Reliability Testing (扰动/重复/异常条件)。技术报告应保存失败试验，而不是只剪辑一次成功视频。
 
-对于工程类案例：FireAIDSS 偏数据、AI 与多机仿真；Aphelion 偏机电、控制与功耗测量；RescueBot 偏移动机器人、嵌入式、传感与安全。学生必须能解释自己写的代码、借用框架/开源组件的来源、关键结果如何计算。可以采用现有 PX4/ArduPilot、Arduino/ESP32、Python 等工具，但不应暗示每行程序都由学生原创。
+对于工程类案例：FireAIDSS 偏数据、AI 与多机模拟；Aphelion 偏机电、控制与功耗测量；RescueBot 偏移动机器人、嵌入式、传感与安全。学生必须能解释自己写的代码、借用框架/开源组件的来源、关键结果如何计算。可以采用现有 PX4/ArduPilot、Arduino/ESP32、Python 等工具，但不应暗示每行程序都由学生原创。
 
 建议工程资料目录：`engineering-design.md`、`hardware-bom.xlsx`、`src/`、`tests/`、`data/`、`engineering-validation.md`、`demo/`；这些为**保密项目内部工作区的建议**，不是公开学习网站内容。
 
@@ -32,29 +32,29 @@
 
 团队整体应以 L3 为合理目标；创新核心尽可能达到 L4。不要求每位学生掌握全部模块，但至少两人能够独立解释关键软件。分级是项目建议，**不是官方认证等级**。
 
-## 3. FireAIDSS：数据、预测与仿真 {#fireaidss}
+## 3. FireAIDSS：数据、预测与模拟 {#fireaidss}
 
 #### 技术管线
 
 `公开或合法采集的图像/热成像 + 风速/风向/地形 → 时间同步与位置配准 → 火情区域提取 → 简化传播基线 → 改进预测模型 → 风险地图 → 模拟监测任务调度`。
 
-<div class="relationship-figure"><div class="diagram-branches"><div class="diagram-node">图像 / 热成像<br><small>合法采集或公开数据</small></div><div class="diagram-node">风向、风速、地形<br><small>时间同步与位置配准</small></div></div><div class="diagram-root">↓ 火情区域提取与数据处理 ↓</div><div class="diagram-row"><div class="diagram-node">简化传播基线</div><span class="diagram-arrow">→</span><div class="diagram-node">改进预测与误差比较</div><span class="diagram-arrow">→</span><div class="diagram-node">风险地图与监测任务仿真</div></div><p class="figure-caption">教学技术管线。PINN具体实现及多机实飞成熟度未核实；用公开数据与安全仿真验证。</p></div>
+<div class="relationship-figure"><div class="diagram-branches"><div class="diagram-node">图像 / 热成像<br><small>合法采集或公开数据</small></div><div class="diagram-node">风向、风速、地形<br><small>时间同步与位置配准</small></div></div><div class="diagram-root">↓ 火情区域提取与数据处理 ↓</div><div class="diagram-row"><div class="diagram-node">简化传播基线</div><span class="diagram-arrow">→</span><div class="diagram-node">改进预测与误差比较</div><span class="diagram-arrow">→</span><div class="diagram-node">风险地图与监测任务模拟</div></div><p class="figure-caption">教学技术管线。PINN具体实现及多机实飞成熟度未核实；用公开数据与安全模拟验证。</p></div>
 
-第一阶段可先完成离线图像处理；第二阶段使用公开数据进行传播预测；第三阶段仅在仿真环境展示多机任务调度。不应先承诺已经实现多无人机自主实飞。底稿提及的 PINN 具体实现尚待核实；作为教学方向，PINN 是物理信息神经网络，教学时要说明偏微分/物理约束与损失函数的关系，但高中生不必从头研发复杂物理求解器。
+第一阶段可先完成离线图像处理；第二阶段使用公开数据进行传播预测；第三阶段仅在模拟环境展示多机任务调度。不应先承诺已经实现多无人机自主实飞。PINN 的具体实现尚待进一步资料确认。作为一个可探讨的技术方向，PINN 是物理信息神经网络，教学时要说明偏微分/物理约束与损失函数的关系，但高中生不必从头研发复杂物理求解器。
 
 #### 必要编程栈
 
-Python、NumPy、Pandas、OpenCV、Matplotlib 作为入门；可根据需要加入 PyTorch。飞行任务仿真可参考 PX4 或 ArduPilot，但必须确认开源许可、安全边界、硬件匹配及学生是否真正理解调用方式。
+Python、NumPy、Pandas、OpenCV、Matplotlib 作为入门；可根据需要加入 PyTorch。飞行任务模拟可参考 PX4 或 ArduPilot，但必须确认开源许可、安全边界、硬件匹配及学生是否真正理解调用方式。
 
 #### 试验设计
 
 1. 图像检测：测试集中含不同光照、烟雾背景，记录 TP、FP、FN，计算 Precision、Recall 和 F1；避免训练数据与测试数据混用。
 2. 传播预测：采用有标注时间序列，比较简单恒速传播基准与改进模型，用 MAE、RMSE、空间重合度评价；说明数据来源和预测时间跨度。
-3. 路径规划：在仿真网格上模拟单机与多机监测，比较覆盖率、耗时、通信约束。
+3. 路径规划：在模拟网格上模拟单机与多机监测，比较覆盖率、耗时、通信约束。
 4. 总体响应：输入传感数据至输出风险图的端到端时延，至少包括平均和最差情况。
 5. 失败案例：烟尘遮挡、传感器丢帧、定位偏差和异常输入如何处理；标示当前无法保证的性能。
 
-火灾相关验证必须采用公开火情数据、合规仿真或非燃烧模拟场景，不能自行制造野火或在无授权环境开展飞行。
+火灾相关验证必须采用公开火情数据、合规模拟或非燃烧模拟场景，不能自行制造野火或在无授权环境开展飞行。
 
 ## 4. Aphelion：闭环控制与能耗 {#aphelion}
 
@@ -167,7 +167,7 @@ $$
 | 数学 | 统计、矩阵、传播建模 | 力学、几何、控制 | 运动学、基础反馈 |
 | 硬件 | 无人机、传感器和集成 | 精密执行器/控制台 | 小型机器人 |
 | 系统风险 | 飞行、火情误判 | 运动失控、机械失效 | 碰撞、误停车 |
-| 建议阶段目标 | 离线模型 + 飞行仿真 | 台架闭环 + 数据测量 | 封闭场地自动任务 |
+| 建议阶段目标 | 离线模型 + 飞行模拟 | 台架闭环 + 数据测量 | 封闭场地自动任务 |
 | 强度评价 | 跨多领域系统工程 | 机电控制深入 | 可范围化的集成项目 |
 
 **这是不同项目形态下的教学分析，不是对获奖团队真实技能水平的评级。**
@@ -206,7 +206,7 @@ $$
 | `data/raw/` | 保持不可覆盖的传感器原始记录 |
 | `data/processed/` | 数据清洗规则和处理后结果 |
 | `validation.md` | 对照方法、指标、实验条件、局限性 |
-| `demo/` | 实际原型或仿真演示视频及拍摄说明 |
+| `demo/` | 实际原型或模拟演示视频及拍摄说明 |
 
 若已有先期工程准备，特别要在证据包中标注哪些属于前期成人贡献、现成开源模块、导师建议及之后由学生独立完成的创新。通过 Git 版本记录、会议纪要和测试日志留下真实过程，不造假补记录。
 

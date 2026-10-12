@@ -7,8 +7,6 @@ search:
 
 完整上下文已合并到 [连续阅读章节](household-hardware.md#interviews)，本页保留原链接兼容。
 
-> 资料性质：本项目建议 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
-
 **访谈前**：说明用途、是否录音、是否保留账单；受访家庭编号替代真实姓名，不收集不必要的敏感信息。
 
 1. 目前用什么设备或方法解决目标问题？何时购买？
@@ -30,4 +28,4 @@ search:
 - [商业模拟器](calculators.md)。
 - [空白模板](../07-resources/templates.md)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。

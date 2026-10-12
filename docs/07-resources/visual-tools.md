@@ -1,6 +1,9 @@
 # 12 类图表与模拟器：教学重建
 
-> 非官方学习资料。图形由本站代码重建，不是获奖团队原图。核查于 2026-10-12。
+
+有些概念用图来比较，比单看公式更直观。这里汇集时间轴、市场规模、控制流程和财务模拟器，方便团队讨论时直接引用，也可以返回对应章节查看完整解释。
+
+这些图表由本站重建；财务参数属于教学模拟，案例图片与项目事实另按来源注明。
 
 ## 1. 全球赛事阶段时间轴
 
@@ -16,9 +19,9 @@
 ## 2. DiveGuard 市场层次与口径提醒
 
 <div class="flow-grid">
-<div class="flow-card"><strong>TAM：124 亿美元</strong><p>底稿中的行业总额口径。</p></div>
-<div class="flow-card"><strong>SAM：2.16 亿美元</strong><p>底稿中的可服务市场估计。</p></div>
-<div class="flow-card"><strong>SOM：648 万美元</strong><p>底稿中的可获得市场估计。</p></div>
+<div class="flow-card"><strong>TAM：124 亿美元</strong><p>全球潜水旅游行业总额。</p></div>
+<div class="flow-card"><strong>SAM：2.16 亿美元</strong><p>智能潜水设备市场估计。</p></div>
+<div class="flow-card"><strong>SOM：648 万美元</strong><p>初期东南亚目标市场估计。</p></div>
 </div>
 
 这些为团队申报，旅游总额与设备市场口径不同，故不画成严格嵌套集合或按面积暗示比例。真正可获得市场需要客户、区域、年份和收入单位一致。[完整说明](../04-business/diveguard-case.md#market-sizing)。

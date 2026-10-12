@@ -1,6 +1,15 @@
-# SensAir：技术与商业价值
+# SensAir：提前感知湍流的技术与客户
 
-> 资料性质：获奖事实 / 团队申报 / 教学分析。整理与核查日期：2026-10-12。本站为非官方独立学习资料。
+飞行中的湍流影响舒适性，也对安全与运营提出要求。SensAir 尝试在这一场景中提供感知方案，适合用来讨论航空技术怎样连接制造商、系统供应商和运营客户。
+
+下面介绍公开项目资料，并讨论测试、集成与商业路线。对于学生团队，这类案例也提醒我们：有些验证需要专业设备与合作资源，应尽早确定可以完成的范围。
+
+
+<figure class="case-photo">
+<a href="https://conrad.spacecenter.org/2025-winners/" target="_blank" rel="noopener"><img src="https://conrad.spacecenter.org/wp-content/uploads/2025/10/1b03004b-ab94-46fa-8a90-cc4cb18f1ea5-1024x682.jpg" alt="SensAir 在官方获奖介绍中的项目配图" loading="lazy" decoding="async"></a>
+<figcaption>SensAir 的官方介绍配图。<a href="https://conrad.spacecenter.org/2025-winners/">图片与项目介绍来源：2025 年获奖档案</a>。核查于 2026-10-12。</figcaption>
+<p class="photo-unavailable" hidden>这张官方图片暂时未能载入，可以<a href="https://conrad.spacecenter.org/2025-winners/">打开项目原始报道</a>查看。</p>
+</figure>
 
 ## 官方记录
 
@@ -26,4 +35,4 @@
 
 - [五种商业模式](../04-business/five-models.md)。
 
-资料边界与更正记录见 [来源核查](../07-resources/source-method.md)。
+资料来源与更新记录见 [来源核查](../07-resources/source-method.md)。
